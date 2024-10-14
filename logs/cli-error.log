@@ -1,0 +1,234 @@
+2024-10-01 16:35:45 warning: Undefined array key "details"
+Trace:
+__TwigTemplate_589d222616d9bea43fe95e391f19fcd6::doDisplay() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Environment.php(361) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() C:\xampp\htdocs\loginuser\vendor\cakephp\twig-view\src\View\TwigView.php, line 301
+Cake\View\View::_render() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Bake\View\BakeView::render() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\View\BakeView.php, line 85
+Bake\Utility\TemplateRenderer::generate() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 407
+Bake\Command\TemplateCommand::execute() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 149
+Bake\Command\AllCommand::execute() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 189
+Cake\Console\CommandRunner::runCommand() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner::run() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+[main] C:\xampp\htdocs\loginuser\bin\cake.php, line 12
+
+2024-10-01 16:35:45 error: [TypeError] array_filter(): Argument #2 ($callback) must be a valid callback or null, no array or string given in C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Extension\CoreExtension.php on line 1683
+Stack Trace:
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Extension\CoreExtension.php:1683
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Environment.php(361) : eval()'d code:116
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:394
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:367
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:379
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\TemplateWrapper.php:40
+- C:\xampp\htdocs\loginuser\vendor\cakephp\twig-view\src\View\TwigView.php:301
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\View\View.php:1177
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\View\BakeView.php:85
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Utility\TemplateRenderer.php:101
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php:407
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php:149
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\BaseCommand.php:189
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\loginuser\bin\cake.php:12
+
+2024-10-01 16:37:29 warning: Undefined array key "details"
+Trace:
+__TwigTemplate_589d222616d9bea43fe95e391f19fcd6::doDisplay() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Environment.php(361) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() C:\xampp\htdocs\loginuser\vendor\cakephp\twig-view\src\View\TwigView.php, line 301
+Cake\View\View::_render() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Bake\View\BakeView::render() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\View\BakeView.php, line 85
+Bake\Utility\TemplateRenderer::generate() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 407
+Bake\Command\TemplateCommand::execute() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 149
+Bake\Command\AllCommand::execute() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 189
+Cake\Console\CommandRunner::runCommand() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner::run() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+[main] C:\xampp\htdocs\loginuser\bin\cake.php, line 12
+
+2024-10-01 16:37:29 error: [TypeError] array_filter(): Argument #2 ($callback) must be a valid callback or null, no array or string given in C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Extension\CoreExtension.php on line 1683
+Stack Trace:
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Extension\CoreExtension.php:1683
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Environment.php(361) : eval()'d code:116
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:394
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:367
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:379
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\TemplateWrapper.php:40
+- C:\xampp\htdocs\loginuser\vendor\cakephp\twig-view\src\View\TwigView.php:301
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\View\View.php:1177
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\View\BakeView.php:85
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Utility\TemplateRenderer.php:101
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php:407
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php:149
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\BaseCommand.php:189
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\loginuser\bin\cake.php:12
+
+2024-10-01 16:43:16 warning: Undefined array key "details"
+Trace:
+__TwigTemplate_589d222616d9bea43fe95e391f19fcd6::doDisplay() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Environment.php(361) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() C:\xampp\htdocs\loginuser\vendor\cakephp\twig-view\src\View\TwigView.php, line 301
+Cake\View\View::_render() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Bake\View\BakeView::render() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\View\BakeView.php, line 85
+Bake\Utility\TemplateRenderer::generate() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 407
+Bake\Command\TemplateCommand::execute() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 149
+Bake\Command\AllCommand::execute() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 189
+Cake\Console\CommandRunner::runCommand() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner::run() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+[main] C:\xampp\htdocs\loginuser\bin\cake.php, line 12
+
+2024-10-01 16:43:16 error: [TypeError] array_filter(): Argument #2 ($callback) must be a valid callback or null, no array or string given in C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Extension\CoreExtension.php on line 1683
+Stack Trace:
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Extension\CoreExtension.php:1683
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Environment.php(361) : eval()'d code:116
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:394
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:367
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:379
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\TemplateWrapper.php:40
+- C:\xampp\htdocs\loginuser\vendor\cakephp\twig-view\src\View\TwigView.php:301
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\View\View.php:1177
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\View\BakeView.php:85
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Utility\TemplateRenderer.php:101
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php:407
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php:149
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\BaseCommand.php:189
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\loginuser\bin\cake.php:12
+
+2024-10-01 16:44:53 warning: Undefined array key "details"
+Trace:
+__TwigTemplate_589d222616d9bea43fe95e391f19fcd6::doDisplay() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Environment.php(361) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() C:\xampp\htdocs\loginuser\vendor\cakephp\twig-view\src\View\TwigView.php, line 301
+Cake\View\View::_render() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Bake\View\BakeView::render() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\View\BakeView.php, line 85
+Bake\Utility\TemplateRenderer::generate() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 407
+Bake\Command\TemplateCommand::execute() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 149
+Bake\Command\AllCommand::execute() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 189
+Cake\Console\CommandRunner::runCommand() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner::run() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+[main] C:\xampp\htdocs\loginuser\bin\cake.php, line 12
+
+2024-10-01 16:44:53 error: [TypeError] array_filter(): Argument #2 ($callback) must be a valid callback or null, no array or string given in C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Extension\CoreExtension.php on line 1683
+Stack Trace:
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Extension\CoreExtension.php:1683
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Environment.php(361) : eval()'d code:116
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:394
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:367
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:379
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\TemplateWrapper.php:40
+- C:\xampp\htdocs\loginuser\vendor\cakephp\twig-view\src\View\TwigView.php:301
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\View\View.php:1177
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\View\BakeView.php:85
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Utility\TemplateRenderer.php:101
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php:407
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php:149
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\BaseCommand.php:189
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\loginuser\bin\cake.php:12
+
+2024-10-01 16:45:00 warning: Undefined array key "details"
+Trace:
+__TwigTemplate_589d222616d9bea43fe95e391f19fcd6::doDisplay() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Environment.php(361) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() C:\xampp\htdocs\loginuser\vendor\cakephp\twig-view\src\View\TwigView.php, line 301
+Cake\View\View::_render() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Bake\View\BakeView::render() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\View\BakeView.php, line 85
+Bake\Utility\TemplateRenderer::generate() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 407
+Bake\Command\TemplateCommand::execute() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 149
+Bake\Command\AllCommand::execute() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 189
+Cake\Console\CommandRunner::runCommand() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner::run() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+[main] C:\xampp\htdocs\loginuser\bin\cake.php, line 12
+
+2024-10-01 16:45:00 error: [TypeError] array_filter(): Argument #2 ($callback) must be a valid callback or null, no array or string given in C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Extension\CoreExtension.php on line 1683
+Stack Trace:
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Extension\CoreExtension.php:1683
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Environment.php(361) : eval()'d code:116
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:394
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:367
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:379
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\TemplateWrapper.php:40
+- C:\xampp\htdocs\loginuser\vendor\cakephp\twig-view\src\View\TwigView.php:301
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\View\View.php:1177
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\View\BakeView.php:85
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Utility\TemplateRenderer.php:101
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php:407
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php:149
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\BaseCommand.php:189
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\loginuser\bin\cake.php:12
+
+2024-10-01 16:45:18 warning: Undefined array key "details"
+Trace:
+__TwigTemplate_589d222616d9bea43fe95e391f19fcd6::doDisplay() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Environment.php(361) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() C:\xampp\htdocs\loginuser\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() C:\xampp\htdocs\loginuser\vendor\cakephp\twig-view\src\View\TwigView.php, line 301
+Cake\View\View::_render() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Bake\View\BakeView::render() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\View\BakeView.php, line 85
+Bake\Utility\TemplateRenderer::generate() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 407
+Bake\Command\TemplateCommand::execute() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 149
+Bake\Command\AllCommand::execute() C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 189
+Cake\Console\CommandRunner::runCommand() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner::run() C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+[main] C:\xampp\htdocs\loginuser\bin\cake.php, line 12
+
+2024-10-01 16:45:18 error: [TypeError] array_filter(): Argument #2 ($callback) must be a valid callback or null, no array or string given in C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Extension\CoreExtension.php on line 1683
+Stack Trace:
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Extension\CoreExtension.php:1683
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Environment.php(361) : eval()'d code:116
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:394
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:367
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\Template.php:379
+- C:\xampp\htdocs\loginuser\vendor\twig\twig\src\TemplateWrapper.php:40
+- C:\xampp\htdocs\loginuser\vendor\cakephp\twig-view\src\View\TwigView.php:301
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\View\View.php:1177
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\View\BakeView.php:85
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Utility\TemplateRenderer.php:101
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php:407
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\TemplateCommand.php:149
+- C:\xampp\htdocs\loginuser\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\BaseCommand.php:189
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\loginuser\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\loginuser\bin\cake.php:12
+
